@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="300" height="180">
+
+  <!-- Background -->
+  <rect width="300" height="180" fill="#0F1F17" rx="16"/>
+
+  <!-- ── Mountain silhouette — double-peak Sahyadri profile ── -->
+  <!-- Main peak (140,20), two flanking ridges, sweeping base -->
+  <path
+    d="M 28,95
+       L 72,52
+       L 98,66
+       L 118,50
+       L 150,18
+       L 182,50
+       L 202,66
+       L 228,52
+       L 272,95 Z"
+    fill="#D4691A"
+  />
+
+  <!-- Subtle highlight ridge on main peak face -->
+  <path
+    d="M 150,18 L 118,50 L 138,44 Z"
+    fill="#E07B2A"
+    opacity="0.45"
+  />
+
+  <!-- ── Flag pole at main peak ── -->
+  <line
+    x1="150" y1="18"
+    x2="150" y2="2"
+    stroke="#F5F0E8"
+    stroke-width="1.6"
+    stroke-linecap="round"
+  />
+
+  <!-- ── Ram flag — triangular, deep saffron-red, fluttering right ── -->
+  <path d="M 150,2 L 174,9 L 150,17 Z" fill="#C02018"/>
+
+  <!-- Flag ripple line (subtle detail) -->
+  <line x1="155" y1="7" x2="172" y2="10" stroke="#9A1810" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- ── Wordmark ── -->
+  <text
+    x="150" y="130"
+    text-anchor="middle"
+    font-family="'Arial Black', 'Impact', 'Helvetica Neue', Arial, sans-serif"
+    font-weight="900"
+    font-size="36"
+    fill="#F5F0E8"
+    letter-spacing="-1.5"
+  >Treks<tspan fill="#D4691A">Dekho</tspan></text>
+
+  <!-- ── Marathi tagline ── -->
+  <text
+    x="150" y="156"
+    text-anchor="middle"
+    font-family="'Noto Sans Devanagari', 'Mangal', Arial, sans-serif"
+    font-size="11"
+    fill="#D4691A"
+    opacity="0.65"
+    letter-spacing="4"
+  >सह्याद्री देखो</text>
+
+</svg>
